@@ -1,0 +1,110 @@
+:root{
+    --warning-color:#ff000088;
+    --section-margin:20px;
+    --btn-padding:5px;
+    --btn-radius:50px;
+    --transition:.3s; 
+}
+::selection{
+    color: var(--main-color);
+    background-color: transparent;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    overflow-x: hidden;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: unset;
+}
+.container {
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nav-active{
+    color: var(--main-color);
+    font-weight: bold;
+}
+.dark-btn{
+    transform: translate(130%,-50%) !important;
+    -webkit-transform: translate(130%,-50%) !important;
+    -moz-transform: translate(130%,-50%) !important;
+    -ms-transform: translate(130%,-50%) !important;
+    -o-transform: translate(130%,-50%) !important;
+}
+.title-heading{
+    font-weight: bold;
+    font-size: 30px;
+    margin: 15px 0;
+}
+.trip-btn-clicked{
+    color: var(--main-color) !important;
+    background-color: var(--main-color-lighter) !important;
+}
+.display-btn{
+    color: var(--secondary-color);
+}
+.display-grid{
+    display: flex;
+    flex-direction: column;
+}
+.display-grid-ticket-content{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+.star{
+    color: #ffc107;
+}
+.show{
+    display: block !important;
+}
+.addingicon{
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    /* transition: var(--transition);
+    -webkit-transition: var(--transition);
+    -moz-transition: var(--transition);
+    -ms-transition: var(--transition);
+    -o-transition: var(--transition); */
+}
+.ticket{
+    animation: ticketshow 1s ease forwards;
+    -webkit-animation: ticketshow 1s ease forwards;
+}
+@keyframes ticketshow {
+    0%{
+        opacity: 0;
+        transform: translateY(8px);
+        -webkit-transform: translateY(8px);
+        -moz-transform: translateY(8px);
+        -ms-transform: translateY(8px);
+        -o-transform: translateY(8px);
+}
+    100%{
+        opacity: 100;
+        transform: translateY(-8px);
+        -webkit-transform: translateY(-8px);
+        -moz-transform: translateY(-8px);
+        -ms-transform: translateY(-8px);
+        -o-transform: translateY(-8px);
+}
+}
+

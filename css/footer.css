@@ -1,0 +1,112 @@
+
+footer {
+  padding: 15px 0;
+
+}
+footer{
+    background-color:var(--third-color);
+}
+
+footer .container {  
+    padding-bottom: 20px;
+    padding-left: 290px;
+    padding-right: 290px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.inputemail input {
+    opacity: 45%;
+  padding-left: 30px;
+  border-radius: 15px;
+
+}
+
+footer .container .inputemail i {
+  font-size: 13px;
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+}
+.inputemail {
+  width: fit-content;
+  position: relative;
+  display: flex;
+
+
+}
+
+.button1 {
+    border: none;
+    background-color: var(--main-color);
+    color: white;
+    margin-left: 10px;
+    font-size: 10px;
+    padding: 7px 7px;
+  border-radius:15px ;
+  -webkit-border-radius:15px ;
+  -moz-border-radius:15px ;
+  -ms-border-radius:15px ;
+  -o-border-radius:15px ;
+  display: flex;
+
+
+}
+footer .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contus{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+ .terms{
+    padding-top: 15px;
+    text-align: center;
+}
+
+
+
+.contus li{
+    margin:5px 10px 20px 0px;
+}
+.cont{
+    margin-left: 5px;
+}
+.cont i{
+    padding-right:10px ;
+}
+
+
+.abous li{
+    padding-top: 9px;;
+}
+
+.flight li{
+    padding-top: 9px;;
+}
+.planelogo{
+    height: 70px;
+    margin-left: 0px;
+    display: flex;
+    }
+.planelogo i{
+    color: var(--main-color);
+margin-top: 19px;
+ padding-top: 9px;
+font-size: 25px;
+}
+.planelogo h2{
+    color: var(--secondary-color);
+    font-size: 20px;
+    margin-left: 15px;
+    padding-top: 13px;
+    padding-bottom: 10px;
+
+}

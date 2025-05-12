@@ -1,0 +1,200 @@
+
+.secreg .register .container h1 {
+  font-size: 25px;
+  margin-top: 50px;
+  margin-left: 250px;
+  display: flex;
+  margin-bottom: 70px;
+}
+
+footer input , footer input:valid:not(:focus){
+  border-bottom: 3px solid black;
+}
+h2 {
+  text-align: center;
+  color: var(--main-color);
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-top: 70px;
+  padding-right: 50px;
+}
+
+.field-holder , .gender-holder ,.email-holder {
+  margin-left: 50px;
+  margin-right: 50px;
+  position: relative;
+  margin-bottom: 1.8em;
+  width: 40%;
+}
+
+
+
+.field-holder input,
+.field-holder select,
+.email-holder input {
+  border: 0;
+  border-bottom: 3px solid var(--main-color);
+  outline: none;
+  background-color: #f3f4f6;
+  border-radius: 0px 10px 10px 10px;
+  -webkit-border-radius: 0px 10px 10px 10px;
+  -moz-border-radius: 0px 10px 10px 10px;
+  -ms-border-radius: 0px 10px 10px 10px;
+  -o-border-radius: 0px 10px 10px 10px;
+  display: block;
+}
+
+
+.field-holder label {
+  position: absolute;
+  top: 0;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  cursor: text;
+  transition: 0.3s ease-in-out;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+}
+
+.field-holder input,
+.field-holder label,
+.field-holder select {
+  font-size: 1em;
+  width: 100%;
+  height: 55px;
+  transition: 0.3s ease-in-out;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+}
+
+.field-holder input:focus + label {
+  font-size: 0.75em;
+  top: -15px;
+  right: 6px;
+  pointer-events: none;
+  color: var(--secondary-color);
+}
+section input:valid:not(:focus) + label {
+    font-size: 0.75em;
+    color: var(--secondary-color);
+    top: -18px;
+    right: 5px;
+  }
+ section input:valid:not(:focus){
+    border: 3px solid var(--secondary-color);
+
+  }
+select:focus {
+    color: var(--secondary-color);
+    border-bottom: 3px solid var(--secondary-color);
+
+    background-color: white;
+}
+
+
+
+
+.field-holder input:focus {
+  border-bottom: 3px solid var(--secondary-color);
+
+  caret-color: var(--secondary-color);
+  background-color: white;
+}
+
+input[type="date"]::-webkit-datetime-edit {
+  text-align: center;
+}
+
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+  position: absolute;
+}
+
+.gender-holder-left {
+  display: flex;
+  font-size: 20px;
+}
+
+.gender-holder-right {
+  display: flex;
+  font-size: 20px;
+padding-right: 420px;
+}
+
+
+
+.gender-holder {
+  justify-content: space-between;
+  display: flex;
+  text-align: right;
+  font-size: 20px;
+  width: 100%;
+
+}
+
+.button-holder {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button-holder .button1 {
+  font-size: 20px;
+  background-color: var(--main-color);
+  color: white;
+  border: none;
+  padding: 10px 300px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.button-holder .button1:hover {
+  background-color: var(--secondary-color);
+  transition: 0.3s ease-in-out;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+}
+.button-holder .button1:active {
+  background-color: var(--main-color);
+  transition: 0.3s ease-in-out;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+}
+
+.login{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login a{
+  color: var(--main-color);
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+section input:hover, section select:hover{
+scale: 1.02;
+background-color: var(--main-color);
+}
+

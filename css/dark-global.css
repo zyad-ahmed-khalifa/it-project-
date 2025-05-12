@@ -1,0 +1,67 @@
+:root{
+    --main-color: #243aff;
+    --main-color-lighter :#d2d7ff;
+
+    --secondary-color:#121631; 
+    --secondary-color-lighter:#292f51;
+
+    --third-color: #202632;
+    --third-color-lighter: #b4bcd0;
+    --dark-grey: #202632;
+
+    --special-color: #ff912b;
+    --background-color: #000211;
+
+    --white-color: #000211;
+    --wight-color: #ffffff;
+    /* --airline-color1:;
+    --airline-color2:;
+    --airline-color3:; 
+    --black-color:#fff; */
+} 
+/* body{
+    background-color: black;
+    color: white;
+}  */
+/* :root{
+    --main-color: #243aff;
+    --Dark-color: #202632;
+    --Dark2-color: #121631;
+    --side-bar-color: #202632;
+    --gray-color: #b4bcd0;
+    --main-color-hover: #2495ffdb;
+    --Dark2-color-hover: #292f51;
+} */
+body{
+    background-color: var(--background-color);
+    color: var(--wight-color) ;
+}
+*{
+    color: var(--wight-color);
+    caret-color: transparent !important;
+}
+.ticket{
+    background-color: var(--secondary-color-lighter) !important;
+    color: var(--wight-color) !important;
+}
+.tickets span:not(:first-child){
+    color: var(--wight-color) !important;
+}
+::placeholder{
+    color: var(--wight-color) !important;
+}
+.search-box .input{
+    background-image: linear-gradient(to right, var(--main-color), var(--main-color-lighter)) !important;
+}
+.filter .container .filter-options ul li.select select {
+    background-color: var(--main-color-lighter) !important;
+}
+.filter .container .filter-options ul li.select select option{
+    color: var(--main-color) !important;
+}
+.filter .container .filter-options ul li.select select i{
+    color: var(--main-color) !important;
+}
+.filter .container .filter-options ul li button i{
+    color: var(--main-color) !important;
+}

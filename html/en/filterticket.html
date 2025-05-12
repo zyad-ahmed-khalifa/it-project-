@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="flight booking site" />
+    <!-- normalize css -->
+    <link rel="stylesheet" href="../../css/normalize.css" />
+    <!-- font css -->
+    <link rel="stylesheet" href="../../css/all.min.css" />
+    <!-- light & dark theme -->
+    <link
+      id="theme"
+      data-theme="light"
+      rel="stylesheet"
+      href="../../css/light-global.css"
+    />
+    <!-- global css -->
+    <link rel="stylesheet" href="../../css/global.css" />
+    <!-- footer css  -->
+    <link rel="stylesheet" href="../../css/footer.css" />
+    <!-- main css -->
+    <link rel="stylesheet" href="../../css/filterticket.css" />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>tickets</title>
+  </head>
+  <body>
+    <!-- start nav -->
+    <nav>
+      <div class="container">
+        <div class="logo">
+          <i class="fa-solid fa-plane-departure"></i>
+          <span class="logo-name">E-flight</span>
+        </div>
+        <ul class="nav-bar">
+          <li><a href="./index.html">home</a></li>
+          <li class="nav-active">
+            <a href="./filterticket.html">tickets</a>
+          </li>
+          <li><a href="../en/review.html">review</a></li>
+          <li><a href="./about.html">about us</a></li>
+        </ul>
+        <ul class="user-toggle">
+          <li class="btn" data-theme="light">
+            <div class="outer">
+              <div class="inner"></div>
+            </div>
+          </li>
+          <li>
+            <a href="../ar/filterticketAr.html"
+              ><i class="fa-solid fa-globe"></i
+            ></a>
+          </li>
+          <li>
+            <a href="./register.html"><i class="fa-solid fa-user"></i></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- end nav -->
+    <!-- start filter section -->
+    <section class="filter">
+      <div class="container">
+        <div class="filter-options">
+          <div class="title title-heading">
+            <span>Find your flight</span>
+          </div>
+          <ul>
+            <li class="">
+              <button class="trip-btn1" data-trip="round trip">
+                <i class="fa-solid fa-repeat"></i>
+                Round trip
+              </button>
+              <!-- <label for="roundtrip"><i class="fa-solid fa-repeat"></i> Round trip</label>
+                            <input type="radio" id="roundtrip" value="round trip" name="tripbtn" > -->
+            </li>
+            <li class="">
+              <button class="trip-btn2 trip-btn-clicked" data-trip="one way">
+                <i class="fa-solid fa-arrow-right"></i>
+                One way
+              </button>
+              <!-- <label for="oneway"><i class="fa-solid fa-arrow-right"></i> one way</label>
+                            <input type="radio" id="oneway" value="one way" name="tripbtn" > -->
+            </li>
+            <li class="select one">
+              <select name="members" id="members">
+                <option value="1" selected>1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+              </select>
+              <i class="fa-solid fa-user"></i>
+            </li>
+            <li class="select">
+              <select name="class" id="class">
+                <option value="economy">Economy class</option>
+                <option value="premium">Premium economy</option>
+                <option value="business">Business class</option>
+                <option value="first">First class</option>
+              </select>
+              <i class="fa-solid fa-ticket-simple"></i>
+            </li>
+          </ul>
+          <div class="search-box">
+            <div class="inputs">
+              <div class="from">
+                <label for="from">From</label>
+                <input
+                  type="text"
+                  id="from"
+                  placeholder="Cairo International Airport"
+                />
+              </div>
+              <div class="icon">
+                <i class="fa-solid fa-repeat"></i>
+              </div>
+              <div class="to">
+                <label for="to">To</label>
+                <input
+                  type="text"
+                  id="to"
+                  placeholder="Where is your destination?"
+                />
+              </div>
+            </div>
+            <div class="search-btn">
+              <button><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+          </div>
+        </div>
+        <div class="back-img">
+          <img src="../../img/earth.png" alt="" />
+          <div class="blur"></div>
+        </div>
+      </div>
+    </section>
+    <!-- end filter section -->
+    <!-- start tickets -->
+    <section class="tickets">
+      <div class="container">
+        <div class="found-ticket-title">
+          <span>Found tickets</span>
+          <div>
+            <i class="fa-solid fa-bars display-btn" title="list"></i>
+            <i class="fa-solid fa-table-cells" title="grid"></i>
+          </div>
+        </div>
+        <div class="all-tickets">
+          <div class="ticket" data-id="${ticketdata.id}">
+            <div class="info line">
+              <!-- <div class="icon">
+                                <i class="fa-solid fa-ticket-simple"></i>
+                            </div> -->
+              <div class="name">
+                <span>airline</span>
+                <span><i class="fa-solid fa-suitcase-rolling"></i> 2kg</span>
+              </div>
+              <div class="time">
+                <span>5:00 - 10:00</span>
+                <span><i class="fa-solid fa-clock"></i> 5 hr 0min</span>
+              </div>
+              <div class="stopping">
+                <span><i class="fa-solid fa-plane-departure"></i> 1 stop</span>
+              </div>
+            </div>
+            <div class="info second line">
+              <!-- <div class="icon">
+                                <i class="fa-solid fa-ticket-simple"></i>
+                            </div> -->
+              <div class="showfrom">
+                <span>from</span>
+                <span><i class="fa-solid fa-plane-departure"></i> cairo</span>
+              </div>
+              <div class="showto">
+                <span>to</span>
+                <span><i class="fa-solid fa-plane-arrival"></i> cairo</span>
+              </div>
+              <div class="showmembers">
+                <span>members</span>
+                <span>1 members</span>
+              </div>
+              <div class="showtriptype">
+                <span>trip type</span>
+                <span>one way</span>
+              </div>
+              <div class="showdegree">
+                <span>degree</span>
+                <span>economic</span>
+              </div>
+            </div>
+            <div class="price-choose line">
+              <div class="price">
+                <span>300$</span>
+              </div>
+              <button class="choose" onclick="choosedticket(this)">
+                <i class="fa-solid fa-ticket-simple"></i>
+                choose
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end tickets -->
+    <!-- start Footer -->
+    <footer>
+      <div class="container">
+        <div class="sub">
+          <div class="planelogo">
+            <i class="fa-solid fa-plane-departure"></i>
+            <h2>E-Flight</h2>
+          </div>
+          <div class="inputemail">
+            <input type="email" placeholder="Input Your Email" />
+            <i class="fa-solid fa-envelope"></i>
+            <button class="button1">Subscribe</button>
+          </div>
+        </div>
+
+        <div class="abous">
+          <ul>
+            <li><strong>About us</strong></li>
+            <li>How to book</li>
+            <li>Help center</li>
+          </ul>
+        </div>
+
+        <div class="flight">
+          <ul>
+            <li><strong>Flight</strong></li>
+            <li>Booking easily</li>
+            <li>Promotions</li>
+          </ul>
+        </div>
+
+        <div class="contus">
+          <ul>
+            <li><strong>Contact us</strong></li>
+            <div class="cont">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-square-x-twitter"></i>
+              <i class="fa-brands fa-square-instagram"></i>
+            </div>
+          </ul>
+        </div>
+      </div>
+      <div class="pterms">
+        <div class="terms">
+          <span>
+            &copy; 2025 University, Inc. Privacy Terms <strong></strong>
+          </span>
+        </div>
+      </div>
+    </footer>
+    <!-- end footer -->
+    <script src="../../js/tickets-data.js"></script>
+    <script src="../../js/filter.js"></script>
+    <script src="../../js/btns.js"></script>
+    <script src="../../js/theme.js"></script>
+  </body>
+</html>

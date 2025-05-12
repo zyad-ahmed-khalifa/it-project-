@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="سجل الآن في أفضل موقع رحلات جوية" />
+
+    <!-- google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- StyleSheets -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link id="theme" data-theme="light" rel="stylesheet" href="../../css/light-global.css">
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/footerA.css" />
+    <link rel="stylesheet" href="css/registera.css" />
+    <link rel="stylesheet" href="css/nav.css" />
+
+    <title>تسجيل جديد</title>
+  </head>
+  <body>
+    <!-- start nav -->
+    <nav>
+      <div class="container">
+        <div class="logo">
+          <i class="fa-solid fa-plane-departure"></i>
+          <span class="logo-name">E-flight</span>
+        </div>
+        <ul class="nav-bar">
+          <li class="nav-active"><a href="#">الرئيسية</a></li>
+          <li><a href="#">التذاكر</a></li>
+          <li><a href="#">المراجعات</a></li>
+          <li><a href="#">من نحن</a></li>
+        </ul>
+        <ul class="user-toggle">
+          <li class="btn">
+            <div class="outer light-theme-color">
+              <div class="inner"></div>
+            </div>
+          </li>
+          <li>
+            <a href="#"><i class="fa-solid fa-globe"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-solid fa-user"></i></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="secreg">
+      <div class="container">
+        <div class="register">
+          <h1>تسجيل</h1>
+          <h2>مرحبًا بك في E-flight</h2>
+        </div>
+
+        <form>
+          <!-- first-name -->
+          <div class="field-holder">
+            <input type="text" id="first-name" required />
+            <label for="first-name">الاسم الأول</label>
+          </div>
+
+          <!-- surname -->
+          <div class="field-holder">
+            <input type="text" id="surname" required />
+            <label for="surname">اسم العائلة</label>
+          </div>
+
+          <!-- phone number -->
+          <div class="field-holder">
+            <input type="text" id="phone-number" required />
+            <label for="phone-number">رقم الهاتف</label>
+          </div>
+
+          <!-- birth date -->
+          <div class="field-holder">
+            <input type="date" id="birth-date" required />
+            <label for="birth-date">تاريخ الميلاد</label>
+          </div>
+
+          <!-- Country -->
+          <div class="field-holder">
+            <select id="country" name="country">
+              <option disabled selected>--الدولة--</option>
+              <option value="Afghanistan">أفغانستان</option>
+              <option value="Aland Islands">جزر آلاند</option>
+              <option value="Albania">ألبانيا</option>
+              <option value="Algeria">الجزائر</option>
+              <option value="American Samoa">ساموا الأمريكية</option>
+              <option value="Andorra">أندورا</option>
+              <option value="Angola">أنغولا</option>
+              <option value="Anguilla">أنغيلا</option>
+              <option value="Antarctica">أنتاركتيكا</option>
+              <option value="Antigua and Barbuda">أنتيغوا وبربودا</option>
+              <option value="Argentina">الأرجنتين</option>
+              <option value="Armenia">أرمينيا</option>
+              <option value="Aruba">أروبا</option>
+              <option value="Australia">أستراليا</option>
+              <option value="Austria">النمسا</option>
+              <option value="Azerbaijan">أذربيجان</option>
+              <option value="Bahamas">الباهاما</option>
+              <option value="Bahrain">البحرين</option>
+              <option value="Bangladesh">بنغلاديش</option>
+              <option value="Barbados">بربادوس</option>
+              <option value="Belarus">بيلاروسيا</option>
+              <option value="Belgium">بلجيكا</option>
+              <option value="Belize">بليز</option>
+              <option value="Benin">بنين</option>
+              <option value="Bermuda">برمودا</option>
+              <option value="Bhutan">بوتان</option>
+              <option value="Bolivia">بوليفيا</option>
+              <option value="Bosnia and Herzegovina">البوسنة والهرسك</option>
+              <option value="Botswana">بوتسوانا</option>
+              <option value="Bouvet Island">جزيرة بوفيه</option>
+              <option value="Brazil">البرازيل</option>
+              <option value="British Indian Ocean Territory">
+                إقليم المحيط الهندي البريطاني
+              </option>
+              <option value="Brunei Darussalam">بروناي</option>
+              <option value="Bulgaria">بلغاريا</option>
+              <option value="Burkina Faso">بوركينا فاسو</option>
+              <option value="Burundi">بوروندي</option>
+              <option value="Cambodia">كمبوديا</option>
+              <option value="Cameroon">الكاميرون</option>
+              <option value="Canada">كندا</option>
+              <option value="Cape Verde">الرأس الأخضر</option>
+              <option value="Cayman Islands">جزر كايمان</option>
+              <option value="Central African Republic">
+                جمهورية أفريقيا الوسطى
+              </option>
+              <option value="Chad">تشاد</option>
+              <option value="Chile">تشيلي</option>
+              <option value="China">الصين</option>
+              <option value="Christmas Island">جزيرة الكريسماس</option>
+              <option value="Cocos (Keeling) Islands">جزر كوكوس</option>
+              <option value="Colombia">كولومبيا</option>
+              <option value="Comoros">جزر القمر</option>
+              <option value="Congo">الكونغو</option>
+              <option value="Congo, The Democratic Republic of The">
+                جمهورية الكونغو الديمقراطية
+              </option>
+              <option value="Cook Islands">جزر كوك</option>
+              <option value="Costa Rica">كوستاريكا</option>
+              <option value="Cote D'ivoire">ساحل العاج</option>
+              <option value="Croatia">كرواتيا</option>
+              <option value="Cuba">كوبا</option>
+              <option value="Cyprus">قبرص</option>
+              <option value="Czech Republic">جمهورية التشيك</option>
+              <option value="Denmark">الدنمارك</option>
+              <option value="Djibouti">جيبوتي</option>
+              <option value="Dominica">دومينيكا</option>
+              <option value="Dominican Republic">جمهورية الدومينيكان</option>
+              <option value="Ecuador">الإكوادور</option>
+              <option value="Egypt">مصر</option>
+              <option value="El Salvador">السلفادور</option>
+              <option value="Equatorial Guinea">غينيا الاستوائية</option>
+              <option value="Eritrea">إريتريا</option>
+              <option value="Estonia">إستونيا</option>
+              <option value="Ethiopia">إثيوبيا</option>
+              <option value="Falkland Islands (Malvinas)">جزر فوكلاند</option>
+              <option value="Faroe Islands">جزر فارو</option>
+              <option value="Fiji">فيجي</option>
+              <option value="Finland">فنلندا</option>
+              <option value="France">فرنسا</option>
+              <option value="French Guiana">غويانا الفرنسية</option>
+              <option value="French Polynesia">بولينيزيا الفرنسية</option>
+              <option value="French Southern Territories">
+                الأقاليم الجنوبية الفرنسية
+              </option>
+              <option value="Gabon">الغابون</option>
+              <option value="Gambia">غامبيا</option>
+              <option value="Georgia">جورجيا</option>
+              <option value="Germany">ألمانيا</option>
+              <option value="Ghana">غانا</option>
+              <option value="Gibraltar">جبل طارق</option>
+              <option value="Greece">اليونان</option>
+              <option value="Greenland">جرينلاند</option>
+              <option value="Grenada">غرينادا</option>
+              <option value="Guadeloupe">جوادلوب</option>
+              <option value="Guam">غوام</option>
+              <option value="Guatemala">غواتيمالا</option>
+              <option value="Guernsey">غيرنزي</option>
+              <option value="Guinea">غينيا</option>
+              <option value="Guinea-bissau">غينيا بيساو</option>
+              <option value="Guyana">غيانا</option>
+              <option value="Haiti">هايتي</option>
+              <option value="Heard Island and Mcdonald Islands">
+                جزيرة هيرد وجزر ماكدونالد
+              </option>
+              <option value="Holy See (Vatican City State)">الفاتيكان</option>
+              <option value="Honduras">هندوراس</option>
+              <option value="Hong Kong">هونغ كونغ</option>
+              <option value="Hungary">المجر</option>
+              <option value="Iceland">آيسلندا</option>
+              <option value="India">الهند</option>
+              <option value="Indonesia">إندونيسيا</option>
+              <option value="Iran, Islamic Republic of">إيران</option>
+              <option value="Iraq">العراق</option>
+              <option value="Ireland">أيرلندا</option>
+              <option value="Isle of Man">جزيرة مان</option>
+              <option value="Italy">إيطاليا</option>
+              <option value="Jamaica">جامايكا</option>
+              <option value="Japan">اليابان</option>
+              <option value="Jersey">جيرسي</option>
+              <option value="Jordan">الأردن</option>
+              <option value="Kazakhstan">كازاخستان</option>
+              <option value="Kenya">كينيا</option>
+              <option value="Kiribati">كيريباس</option>
+              <option value="Korea, Democratic People's Republic of">
+                كوريا الشمالية
+              </option>
+              <option value="Korea, Republic of">كوريا الجنوبية</option>
+              <option value="Kuwait">الكويت</option>
+              <option value="Kyrgyzstan">قيرغيزستان</option>
+              <option value="Lao People's Democratic Republic">لاوس</option>
+              <option value="Latvia">لاتفيا</option>
+              <option value="Lebanon">لبنان</option>
+              <option value="Lesotho">ليسوتو</option>
+              <option value="Liberia">ليبيريا</option>
+              <option value="Libyan Arab Jamahiriya">ليبيا</option>
+              <option value="Liechtenstein">ليختنشتاين</option>
+              <option value="Lithuania">ليتوانيا</option>
+              <option value="Luxembourg">لوكسمبورغ</option>
+              <option value="Macao">ماكاو</option>
+              <option value="Macedonia, The Former Yugoslav Republic of">
+                مقدونيا
+              </option>
+              <option value="Madagascar">مدغشقر</option>
+              <option value="Malawi">مالاوي</option>
+              <option value="Malaysia">ماليزيا</option>
+              <option value="Maldives">المالديف</option>
+              <option value="Mali">مالي</option>
+              <option value="Malta">مالطا</option>
+              <option value="Marshall Islands">جزر مارشال</option>
+              <option value="Martinique">مارتينيك</option>
+              <option value="Mauritania">موريتانيا</option>
+              <option value="Mauritius">موريشيوس</option>
+              <option value="Mayotte">مايوت</option>
+              <option value="Mexico">المكسيك</option>
+              <option value="Micronesia, Federated States of">
+                ميكرونيزيا
+              </option>
+              <option value="Moldova, Republic of">مولدوفا</option>
+              <option value="Monaco">موناكو</option>
+              <option value="Mongolia">منغوليا</option>
+              <option value="Montenegro">الجبل الأسود</option>
+              <option value="Montserrat">مونتسرات</option>
+              <option value="Morocco">المغرب</option>
+              <option value="Mozambique">موزمبيق</option>
+              <option value="Myanmar">ميانمار</option>
+              <option value="Namibia">ناميبيا</option>
+              <option value="Nauru">ناورو</option>
+              <option value="Nepal">نيبال</option>
+              <option value="Netherlands">هولندا</option>
+              <option value="Netherlands Antilles">
+                جزر الأنتيل الهولندية
+              </option>
+              <option value="New Caledonia">كاليدونيا الجديدة</option>
+              <option value="New Zealand">نيوزيلندا</option>
+              <option value="Nicaragua">نيكاراغوا</option>
+              <option value="Niger">النيجر</option>
+              <option value="Nigeria">نيجيريا</option>
+              <option value="Niue">نيوي</option>
+              <option value="Norfolk Island">جزيرة نورفولك</option>
+              <option value="Northern Mariana Islands">
+                جزر ماريانا الشمالية
+              </option>
+              <option value="Norway">النرويج</option>
+              <option value="Oman">عمان</option>
+              <option value="Pakistan">باكستان</option>
+              <option value="Palau">بالاو</option>
+              <option value="Palestinian Territory, Occupied">فلسطين</option>
+              <option value="Panama">بنما</option>
+              <option value="Papua New Guinea">بابوا غينيا الجديدة</option>
+              <option value="Paraguay">باراغواي</option>
+              <option value="Peru">بيرو</option>
+              <option value="Philippines">الفلبين</option>
+              <option value="Pitcairn">بيتكيرن</option>
+              <option value="Poland">بولندا</option>
+              <option value="Portugal">البرتغال</option>
+              <option value="Puerto Rico">بورتو ريكو</option>
+              <option value="Qatar">قطر</option>
+              <option value="Reunion">ريونيون</option>
+              <option value="Romania">رومانيا</option>
+              <option value="Russian Federation">روسيا</option>
+              <option value="Rwanda">رواندا</option>
+              <option value="Saint Helena">سانت هيلينا</option>
+              <option value="Saint Kitts and Nevis">سانت كيتس ونيفيس</option>
+              <option value="Saint Lucia">سانت لوسيا</option>
+              <option value="Saint Pierre and Miquelon">
+                سان بيير وميكلون
+              </option>
+              <option value="Saint Vincent and The Grenadines">
+                سانت فنسنت والغرينادين
+              </option>
+              <option value="Samoa">ساموا</option>
+              <option value="San Marino">سان مارينو</option>
+              <option value="Sao Tome and Principe">ساو تومي وبرينسيب</option>
+              <option value="Saudi Arabia">السعودية</option>
+              <option value="Senegal">السنغال</option>
+              <option value="Serbia">صربيا</option>
+              <option value="Seychelles">سيشل</option>
+              <option value="Sierra Leone">سيراليون</option>
+              <option value="Singapore">سنغافورة</option>
+              <option value="Slovakia">سلوفاكيا</option>
+              <option value="Slovenia">سلوفينيا</option>
+              <option value="Solomon Islands">جزر سليمان</option>
+              <option value="Somalia">الصومال</option>
+              <option value="South Africa">جنوب أفريقيا</option>
+              <option value="South Georgia and The South Sandwich Islands">
+                جورجيا الجنوبية وجزر ساندويتش الجنوبية
+              </option>
+              <option value="Spain">إسبانيا</option>
+              <option value="Sri Lanka">سريلانكا</option>
+              <option value="Sudan">السودان</option>
+              <option value="Suriname">سورينام</option>
+              <option value="Svalbard and Jan Mayen">سفالبارد ويان ماين</option>
+              <option value="Swaziland">سوازيلاند</option>
+              <option value="Sweden">السويد</option>
+              <option value="Switzerland">سويسرا</option>
+              <option value="Syrian Arab Republic">سوريا</option>
+              <option value="Taiwan">تايوان</option>
+              <option value="Tajikistan">طاجيكستان</option>
+              <option value="Tanzania, United Republic of">تنزانيا</option>
+              <option value="Thailand">تايلاند</option>
+              <option value="Timor-leste">تيمور الشرقية</option>
+              <option value="Togo">توجو</option>
+              <option value="Tokelau">توكيلاو</option>
+              <option value="Tonga">تونغا</option>
+              <option value="Trinidad and Tobago">ترينيداد وتوباغو</option>
+              <option value="Tunisia">تونس</option>
+              <option value="Turkey">تركيا</option>
+              <option value="Turkmenistan">تركمانستان</option>
+              <option value="Turks and Caicos Islands">جزر تركس وكايكوس</option>
+              <option value="Tuvalu">توفالو</option>
+              <option value="Uganda">أوغندا</option>
+              <option value="Ukraine">أوكرانيا</option>
+              <option value="United Arab Emirates">الإمارات</option>
+              <option value="United Kingdom">المملكة المتحدة</option>
+              <option value="United States">الولايات المتحدة</option>
+              <option value="United States Minor Outlying Islands">
+                جزر الولايات المتحدة الصغيرة النائية
+              </option>
+              <option value="Uruguay">أوروغواي</option>
+              <option value="Uzbekistan">أوزبكستان</option>
+              <option value="Vanuatu">فانواتو</option>
+              <option value="Venezuela">فنزويلا</option>
+              <option value="Viet Nam">فيتنام</option>
+              <option value="Virgin Islands, British">
+                جزر فيرجن البريطانية
+              </option>
+              <option value="Virgin Islands, U.S.">جزر فيرجن الأمريكية</option>
+              <option value="Wallis and Futuna">واليس وفوتونا</option>
+              <option value="Western Sahara">الصحراء الغربية</option>
+              <option value="Yemen">اليمن</option>
+              <option value="Zambia">زامبيا</option>
+              <option value="Zimbabwe">زيمبابوي</option>
+            </select>
+          </div>
+
+          <!-- nationality -->
+          <div class="field-holder">
+            <select name="nationality">
+              <option disabled selected>--الجنسية--</option>
+              <option value="afghan">أفغاني</option>
+              <option value="albanian">ألباني</option>
+              <option value="algerian">جزائري</option>
+              <option value="american">أمريكي</option>
+              <option value="andorran">أندوري</option>
+              <option value="angolan">أنغولي</option>
+              <option value="antiguans">أنتيغوي</option>
+              <option value="argentinean">أرجنتيني</option>
+              <option value="armenian">أرميني</option>
+              <option value="australian">أسترالي</option>
+              <option value="austrian">نمساوي</option>
+              <option value="azerbaijani">أذربيجاني</option>
+              <option value="bahamian">باهامي</option>
+              <option value="bahraini">بحريني</option>
+              <option value="bangladeshi">بنغلاديشي</option>
+              <option value="barbadian">بربادوسي</option>
+              <option value="barbudans">باربودي</option>
+              <option value="batswana">بوتسواني</option>
+              <option value="belarusian">بيلاروسي</option>
+              <option value="belgian">بلجيكي</option>
+              <option value="belizean">بليزي</option>
+              <option value="beninese">بنيني</option>
+              <option value="bhutanese">بوتاني</option>
+              <option value="bolivian">بوليفي</option>
+              <option value="bosnian">بوسني</option>
+              <option value="brazilian">برازيلي</option>
+              <option value="british">بريطاني</option>
+              <option value="bruneian">بروني</option>
+              <option value="bulgarian">بلغاري</option>
+              <option value="burkinabe">بوركيني</option>
+              <option value="burmese">بورمي</option>
+              <option value="burundian">بوروندي</option>
+              <option value="cambodian">كمبودي</option>
+              <option value="cameroonian">كاميروني</option>
+              <option value="canadian">كندي</option>
+              <option value="cape verdean">رأس أخضري</option>
+              <option value="central african">أفريقي مركزي</option>
+              <option value="chadian">تشادي</option>
+              <option value="chilean">تشيلي</option>
+              <option value="chinese">صيني</option>
+              <option value="colombian">كولومبي</option>
+              <option value="comoran">جزر القمر</option>
+              <option value="congolese">كونغولي</option>
+              <option value="costa rican">كوستاريكي</option>
+              <option value="croatian">كرواتي</option>
+              <option value="cuban">كوبي</option>
+              <option value="cypriot">قبرصي</option>
+              <option value="czech">تشيكي</option>
+              <option value="danish">دنماركي</option>
+              <option value="djibouti">جيبوتي</option>
+              <option value="dominican">دومينيكاني</option>
+              <option value="dutch">هولندي</option>
+              <option value="east timorese">تيموري شرقي</option>
+              <option value="ecuadorean">إكوادوري</option>
+              <option value="egyptian">مصري</option>
+              <option value="emirian">إماراتي</option>
+              <option value="equatorial guinean">غيني استوائي</option>
+              <option value="eritrean">إريتري</option>
+              <option value="estonian">إستوني</option>
+              <option value="ethiopian">إثيوبي</option>
+              <option value="fijian">فيجي</option>
+              <option value="filipino">فلبيني</option>
+              <option value="finnish">فنلندي</option>
+              <option value="french">فرنسي</option>
+              <option value="gabonese">غابوني</option>
+              <option value="gambian">غامبي</option>
+              <option value="georgian">جورجي</option>
+              <option value="german">ألماني</option>
+              <option value="ghanaian">غاني</option>
+              <option value="greek">يوناني</option>
+              <option value="grenadian">غرينادي</option>
+              <option value="guatemalan">غواتيمالي</option>
+              <option value="guinea-bissauan">غيني بيساوي</option>
+              <option value="guinean">غيني</option>
+              <option value="guyanese">غياني</option>
+              <option value="haitian">هايتي</option>
+              <option value="herzegovinian">هرزغوفيني</option>
+              <option value="honduran">هندوراسي</option>
+              <option value="hungarian">مجري</option>
+              <option value="icelander">آيسلندي</option>
+              <option value="indian">هندي</option>
+              <option value="indonesian">إندونيسي</option>
+              <option value="iranian">إيراني</option>
+              <option value="iraqi">عراقي</option>
+              <option value="irish">إيرلندي</option>
+              <option value="italian">إيطالي</option>
+              <option value="ivorian">إيفواري</option>
+              <option value="jamaican">جامايكي</option>
+              <option value="japanese">ياباني</option>
+              <option value="jordanian">أردني</option>
+              <option value="kazakhstani">كازاخستاني</option>
+              <option value="kenyan">كيني</option>
+              <option value="kittian and nevisian">كيتسي ونيفيسي</option>
+              <option value="kuwaiti">كويتي</option>
+              <option value="kyrgyz">قيرغيزي</option>
+              <option value="laotian">لاوسي</option>
+              <option value="latvian">لاتفي</option>
+              <option value="lebanese">لبناني</option>
+              <option value="liberian">ليبيري</option>
+              <option value="libyan">ليبي</option>
+              <option value="liechtensteiner">ليختنشتايني</option>
+              <option value="lithuanian">ليتواني</option>
+              <option value="luxembourger">لوكسمبورغي</option>
+              <option value="macedonian">مقدوني</option>
+              <option value="malagasy">مدغشقري</option>
+              <option value="malawian">مالاوي</option>
+              <option value="malaysian">ماليزي</option>
+              <option value="maldivan">مالديفي</option>
+              <option value="malian">مالي</option>
+              <option value="maltese">مالطي</option>
+              <option value="marshallese">مارشالي</option>
+              <option value="mauritanian">موريتاني</option>
+              <option value="mauritian">موريشي</option>
+              <option value="mexican">مكسيكي</option>
+              <option value="micronesian">ميكرونيزي</option>
+              <option value="moldovan">مولدوفي</option>
+              <option value="monacan">موناكي</option>
+              <option value="mongolian">منغولي</option>
+              <option value="moroccan">مغربي</option>
+              <option value="mosotho">ليسوتي</option>
+              <option value="motswana">بوتسواني</option>
+              <option value="mozambican">موزمبيقي</option>
+              <option value="namibian">ناميبي</option>
+              <option value="nauruan">ناوروي</option>
+              <option value="nepalese">نيبالي</option>
+              <option value="new zealander">نيوزيلندي</option>
+              <option value="ni-vanuatu">فانواتي</option>
+              <option value="nicaraguan">نيكاراغوي</option>
+              <option value="nigerien">نيجري</option>
+              <option value="north korean">كوري شمالي</option>
+              <option value="northern irish">إيرلندي شمالي</option>
+              <option value="norwegian">نرويجي</option>
+              <option value="omani">عماني</option>
+              <option value="pakistani">باكستاني</option>
+              <option value="palauan">بالاوي</option>
+              <option value="panamanian">بنمي</option>
+              <option value="papua new guinean">بابوا غينيا الجديدة</option>
+              <option value="paraguayan">باراغواياني</option>
+              <option value="peruvian">بيروفي</option>
+              <option value="polish">بولندي</option>
+              <option value="portuguese">برتغالي</option>
+              <option value="qatari">قطري</option>
+              <option value="romanian">روماني</option>
+              <option value="russian">روسي</option>
+              <option value="rwandan">رواندي</option>
+              <option value="saint lucian">سانت لوسي</option>
+              <option value="salvadoran">سلفادوري</option>
+              <option value="samoan">ساموي</option>
+              <option value="san marinese">سان ماريني</option>
+              <option value="sao tomean">ساو تومي</option>
+              <option value="saudi">سعودي</option>
+              <option value="scottish">اسكتلندي</option>
+              <option value="senegalese">سنغالي</option>
+              <option value="serbian">صربي</option>
+              <option value="seychellois">سيشلي</option>
+              <option value="sierra leonean">سيراليوني</option>
+              <option value="singaporean">سنغافوري</option>
+              <option value="slovakian">سلوفاكي</option>
+              <option value="slovenian">سلوفيني</option>
+              <option value="solomon islander">جزر سليمان</option>
+              <option value="somali">صومالي</option>
+              <option value="south african">جنوب أفريقي</option>
+              <option value="south korean">كوري جنوبي</option>
+              <option value="spanish">إسباني</option>
+              <option value="sri lankan">سريلانكي</option>
+              <option value="sudanese">سوداني</option>
+              <option value="surinamer">سورينامي</option>
+              <option value="swazi">سوازي</option>
+              <option value="swedish">سويدي</option>
+              <option value="swiss">سويسري</option>
+              <option value="syrian">سوري</option>
+              <option value="taiwanese">تايواني</option>
+              <option value="tajik">طاجيكي</option>
+              <option value="tanzanian">تنزاني</option>
+              <option value="thai">تايلاندي</option>
+              <option value="togolese">توغولي</option>
+              <option value="tongan">تونغي</option>
+              <option value="trinidadian or tobagonian">
+                ترينيدادي أو توباغوني
+              </option>
+              <option value="tunisian">تونسي</option>
+              <option value="turkish">تركي</option>
+              <option value="tuvaluan">توفالي</option>
+              <option value="ugandan">أوغندي</option>
+              <option value="ukrainian">أوكراني</option>
+              <option value="uruguayan">أوروغواياني</option>
+              <option value="uzbekistani">أوزبكي</option>
+              <option value="venezuelan">فنزويلي</option>
+              <option value="vietnamese">فيتنامي</option>
+              <option value="welsh">ويلزي</option>
+              <option value="yemenite">يمني</option>
+              <option value="zambian">زامبي</option>
+              <option value="zimbabwean">زيمبابوي</option>
+            </select>
+          </div>
+
+          <div class="gender-holder">
+            <div class="gender-holder-left">
+              <label>
+                <input type="radio" name="gender" id="male" required />
+                ذكر
+              </label>
+            </div>
+            <div class="gender-holder-right">
+              <label>
+                <input type="radio" name="gender" id="female" required />
+                أنثى
+              </label>
+            </div>
+          </div>
+
+          <div class="field-holder">
+            <input type="email" id="email" required />
+            <label for="email">البريد الإلكتروني</label>
+          </div>
+
+          <div class="field-holder">
+            <input type="password" id="password" required />
+            <label for="password">كلمة المرور</label>
+          </div>
+          <div class="field-holder">
+            <div class="passport-number">
+              <input type="text" id="passport-number" required />
+              <label for="passport-number">رقم جواز السفر</label>
+            </div>
+          </div>
+
+          <div class="field-holder">
+            <div class="passport-number">
+              <input type="date" id="passport-end-date" required />
+              <label for="passport-end-date">تاريخ انتهاء الجواز</label>
+            </div>
+          </div>
+
+          <div class="button-holder">
+            <button class="button1">تسجيل</button>
+          </div>
+          <div class="login">
+            <p>لديك حساب بالفعل؟</p>
+            <a href=""><u>تسجيل الدخول</u></a>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- Fooooooooooooooooooooooooooooooter -->
+    <footer>
+      <div class="container">
+        <div class="sub">
+          <div class="planelogo">
+            <i class="fa-solid fa-plane-departure"></i>
+            <h2>E-flight</h2>
+          </div>
+          <div class="inputemail">
+            <input type="email" placeholder="أدخل بريدك الإلكتروني" />
+            <i class="fa-solid fa-envelope"></i>
+            <button class="button1">اشترك</button>
+          </div>
+        </div>
+
+        <div class="abous">
+          <ul>
+            <li><strong>من نحن</strong></li>
+            <li>كيفية الحجز</li>
+            <li>مركز المساعدة</li>
+          </ul>
+        </div>
+
+        <div class="flight">
+          <ul>
+            <li><strong>الرحلات</strong></li>
+            <li>حجز بسهولة</li>
+            <li>عروض ترويجية</li>
+          </ul>
+        </div>
+
+        <div class="contus">
+          <ul>
+            <li><strong>تواصل معنا</strong></li>
+            <div class="cont">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-square-x-twitter"></i>
+              <i class="fa-brands fa-square-instagram"></i>
+            </div>
+          </ul>
+        </div>
+      </div>
+      <div class="pterms">
+        <div class="terms">
+          <span>
+            &copy; 2025 الجامعة، جميع الحقوق محفوظة. سياسة الخصوصية الشروط
+            <strong></strong>
+          </span>
+        </div>
+      </div>
+    </footer>
+    <!-- footer ends -->
+    <script src="../../js/register.js"></script>
+    <script src="../../js/theme.js"></script>
+  </body>
+</html>

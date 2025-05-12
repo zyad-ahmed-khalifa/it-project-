@@ -1,0 +1,241 @@
+
+/* General Reset */
+.block{
+    display:flex ;
+    justify-content: center;
+}
+.pic2{
+    width: 100%;
+    height: 500px;
+    margin-top: 40px ;
+    border-radius: 20px;
+}
+section{
+    margin:5%;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f9fdfc;
+    color: #222;
+    line-height: 1.6;
+  }
+  
+
+
+ /* IMAGE BANNER */
+ .hero-section  {
+    overflow: hidden;
+    height: calc(100vh - 70px);
+
+}
+
+.hero-section img {
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    width: 100%;
+
+}
+
+
+/*  Trip Section */
+.outline{
+background-color:none;
+}
+
+section.trip-details {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 15px 20px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+}
+
+
+.inline{
+    display: block;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inline h3{
+    display: inline;
+
+}
+
+.inline .search-button{
+   display: inline; 
+}
+
+
+.inline span{
+    color: #28a745;
+}
+
+.search-button {
+    background-color:black;
+    color:white;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    
+    
+}
+.search-button:active{
+    opacity: 0.7;
+    transition: none;
+}
+
+.block {
+    border-radius: 8px;
+}
+
+.search-button:hover {
+    background-color: #218838;
+}
+
+/* News Section */
+
+.offers-section {
+    padding: 30px 20px;
+}
+
+.offers-section h2 {
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.offers-grid {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.offer-card {
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.offer-card img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.offer-details {
+    padding: 15px;
+}
+
+.offer-details h3 {
+    margin-top: 0;
+    margin-left: 0;
+    color: #333;
+    direction: ltr;
+}
+
+.offer-details .date {
+    color: #777;
+    margin-bottom: 5px;
+}
+
+.offer-details .price {
+    color: #28a745;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    text-align: end;
+}
+
+.book-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.book-button:hover {
+    background-color: #0056b3;
+}
+
+.whats-new-section {
+    padding: 30px 20px;
+    text-align: center;
+    background-color: none;
+}
+
+.whats-new-section h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.news-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.news-card {
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.news-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.news-card h3 {
+    margin: 15px;
+    color: #333;
+    font-size: 1em;
+    line-height: 1.4;
+    text-align: start;
+}
+
+.news-card .date {
+    color: #777;
+    font-size: 0.9em;
+    margin: 0 15px 15px;
+    text-align: end;
+}
+
+.view-more-button {
+    background-color: #007bff;
+    color: white; 
+    border: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.view-more-button:hover {
+   background-color:#0056b3 ;
+}
+
+button {
+    transition:0.5s;
+}
